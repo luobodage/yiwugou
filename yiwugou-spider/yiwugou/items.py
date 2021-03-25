@@ -9,4 +9,8 @@ import scrapy
 class YiwugouItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+    title = scrapy.Field()
+    shop_url = scrapy.Field()
+    price = scrapy.Field()
+    company = scrapy.Field()
+    address = scrapy.Field()

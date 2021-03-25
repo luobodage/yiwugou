@@ -13,11 +13,14 @@ SPIDER_MODULES = ['yiwugou.spiders']
 NEWSPIDER_MODULE = 'yiwugou.spiders'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-# USER_AGENT = 'yiwugou (+http://www.yourdomain.com)'
+USER_AGENT = 'yiwugou (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
 
+
+
+LOG_LEVEL = 'WARNING'
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 # CONCURRENT_REQUESTS = 32
 
@@ -35,7 +38,6 @@ ROBOTSTXT_OBEY = False
 # Disable Telnet Console (enabled by default)
 # TELNETCONSOLE_ENABLED = False
 
-LOG_LEVEL = 'WARNING'
 # Override the default request headers:
 DEFAULT_REQUEST_HEADERS = {
     'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
@@ -64,7 +66,7 @@ DEFAULT_REQUEST_HEADERS = {
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-    'yiwugou.pipelines.YiwugouPipeline': 300,
+   'yiwugou.pipelines.YiwugouPipeline': 300,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)

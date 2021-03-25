@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="00c53dc3-b5ba-4655-b6e2-487b3fb9a280" name="默认变更列表" comment="" />
+    <list default="true" id="00c53dc3-b5ba-4655-b6e2-487b3fb9a280" name="默认变更列表" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,12 +54,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/新建草稿文件" value="Python" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/index" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../huazhuangpin" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\13342\Documents\毕业设计\yiwugou\yiwugou-spider" />
       <recent name="C:\Users\13342\Documents\毕业设计\yiwugou\index" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -227,8 +230,23 @@
       <workItem from="1616318798093" duration="168000" />
       <workItem from="1616382856789" duration="3000" />
       <workItem from="1616388088609" duration="618000" />
-      <workItem from="1616671308241" duration="383000" />
+      <workItem from="1616671308241" duration="1158000" />
     </task>
+    <task id="LOCAL-00001" summary="义乌购项目">
+      <created>1616671716417</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1616671716417</updated>
+    </task>
+    <task id="LOCAL-00002" summary="义乌购项目">
+      <created>1616671813229</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1616671813229</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,6 +262,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="义乌购项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="义乌购项目" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/yiwugou$scratch_1.coverage" NAME="scratch_1 覆盖结果" MODIFIED="1616210033505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
