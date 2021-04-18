@@ -43,7 +43,9 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="1pv2e47k8HSt03x54yrvQ3r1iyZ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -54,7 +56,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/新建草稿文件" value="Python" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../huazhuangpin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../毕业设计Spider" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -230,7 +232,8 @@
       <workItem from="1616318798093" duration="168000" />
       <workItem from="1616382856789" duration="3000" />
       <workItem from="1616388088609" duration="618000" />
-      <workItem from="1616671308241" duration="1158000" />
+      <workItem from="1616671308241" duration="1266000" />
+      <workItem from="1616745621441" duration="14000" />
     </task>
     <task id="LOCAL-00001" summary="义乌购项目">
       <created>1616671716417</created>
@@ -246,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616671813229</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="义乌购项目">
+      <created>1616675635580</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1616675635580</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,6 +272,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="义乌购项目" />
