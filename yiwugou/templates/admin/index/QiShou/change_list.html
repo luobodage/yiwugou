@@ -1,0 +1,90 @@
+{% extends 'admin/change_list.html' %}
+{% load static %}
+{% block content_title %}
+    <!-- ECharts单文件引入 -->
+    <script src="{% static 'js/echarts.min.js' %}"></script>
+    <script src="http://echarts.baidu.com/build/dist/echarts.js"></script>
+{% endblock %}
+
+{% block result_list %}
+
+    <div id="mains" style="height:400px; width: 1000px;"></div>
+    <script>
+        var myChart = echarts.init(document.getElementById('mains'));
+        var data ={{ data1|safe }};
+        var time = {{ type|safe }};
+        console.log(time)
+
+        myChart.setOption({
+            toolbox: {
+                show: true,
+                feature: {
+                    mark: {show: true},
+                    dataView: {show: true, readOnly: false},
+                    magicType: {show: true, type: ['line']},
+                    restore: {show: true},
+                    saveAsImage: {show: true}
+                }
+            },
+            calculable: true,
+
+            title: {
+                text: '起售量统计散点图'
+            },
+            tooltip: {
+                trigger: 'axis',
+            },
+            legend: {
+                data: ['数量']
+            },
+
+            xAxis: [
+                {
+                    type: 'category',
+                    data: time,
+                    axisLabel: {
+                        interval: 0,
+                        rotate: 0,
+                        show: true,//不显示坐标轴上的文字
+                    },
+                    axisTick: {
+                        show: false//不显示坐标轴刻度线
+                    },
+
+                }
+            ],
+            yAxis: [
+                {
+                    type: 'value',
+                    {#splitLine: {#}
+                    {#    show: false//不显示网格线#}
+                    {#},#}
+                    {#axisLabel: {#}
+                    {#    show: false,//不显示坐标轴上的文字#}
+                    {#},#}
+                    {#axisTick: {#}
+                    {#    show: false//不显示坐标轴刻度线#}
+                    {#},#}
+
+
+                }
+            ],
+
+            series: [
+                {
+                    name: '数量',
+                    type: 'scatter',
+                    data: data,
+                    markPoint: [
+                        {type: 'max', name: '最大值'},
+                        {type: 'min', name: '最小值'}
+                    ],
+                    symbolSize: 4,
+                    color: 'lightBlue',
+                }
+            ]
+        });
+
+    </script>
+
+{% endblock %}

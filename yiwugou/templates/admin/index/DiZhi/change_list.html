@@ -1,0 +1,78 @@
+{% extends 'admin/change_list.html' %}
+{% load static %}
+{% block content_title %}
+    <!-- ECharts单文件引入 -->
+        <script src="{% static 'js/echarts.min.js' %}"></script>
+        <script src="http://echarts.baidu.com/build/dist/echarts.js"></script>
+{% endblock %}
+
+{% block result_list %}
+
+    <div id="mains" style="height:400px; width: 1000px;"></div>
+
+        <script>
+            var myChart = echarts.init(document.getElementById('mains'));
+            var data ={{ data1|safe }};
+            var time = {{ type|safe }};
+            console.log(time)
+
+            myChart.setOption({
+                toolbox: {
+                    show: true,
+                    feature: {
+                        mark: {show: true},
+                        dataView: {show: true, readOnly: false},
+                        magicType: {show: true, type: ['line']},
+                        restore: {show: true},
+                        saveAsImage: {show: true}
+                    }
+                },
+                calculable: true,
+
+                title: {
+                    text: '义乌购小商品厂家分布统计'
+                },
+                tooltip: {
+                    trigger: 'axis',
+                },
+                legend: {
+                    data: ['数量与地址']
+                },
+
+                xAxis: [
+                    {
+                        type: 'category',
+                        boundaryGap: false,
+                        data: time,
+                        show: false,
+                        axisLabel: {
+                            interval: 0,
+                            rotate: 0
+                        }
+                    }
+                ],
+                yAxis: [
+                    {
+                        type: 'value',
+                    }
+                ],
+
+                series: [
+                    {
+                        name: '数量与地址',
+                        type: 'line',
+                        data: data,
+                        markPoint: [
+                            {type: 'max', name: '最大值'},
+                            {type: 'min', name: '最小值'}
+                        ],
+                        areaStyle: {},
+                    },
+                ]
+            });
+
+        </script>
+
+
+{% endblock %}
+

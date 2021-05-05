@@ -1,0 +1,52 @@
+{% extends 'admin/change_list.html' %}
+{% load static %}
+{% block content_title %}
+    <!-- ECharts单文件引入 -->
+    <script src="{% static 'js/echarts.min.js' %}"></script>
+    <script src="http://echarts.baidu.com/build/dist/echarts.js"></script>
+{% endblock %}
+
+{% block result_list %}
+
+    <div id="mains" style="height:400px; width: 1000px;"></div>
+    <script>
+        var myChart = echarts.init(document.getElementById('mains'));
+        myChart.hideLoading();
+
+        myChart.setOption({
+            title: {
+                text: '义乌购小商售卖地点分布饼图',
+                subtext: '',
+                left: 'center'
+            },
+            tooltip: {
+                trigger: 'item',
+                formatter: '{a} <br/>{b} : {c} ({d}%)'
+            },
+            legend: {
+                orient: 'vertical',
+                left: 'left',
+                data: {{ leng|safe }}
+            },
+            series: [
+                {
+                    name: '百分比',
+                    type: 'pie',
+                    radius: '55%',
+                    center: ['60%', '50%'],
+                    data: {{ data1|safe }},
+                    emphasis: {
+                        itemStyle: {
+                            shadowBlur: 10,
+                            shadowOffsetX: 0,
+                            shadowColor: 'rgba(0, 0, 0, 0.5)'
+                        }
+                    }
+                }
+            ]
+        });
+
+
+    </script>
+
+{% endblock %}

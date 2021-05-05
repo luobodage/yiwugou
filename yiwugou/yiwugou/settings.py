@@ -24,8 +24,8 @@ SECRET_KEY = 'q%ewgmncpdm8v((je-@n71zf=zb#38hmk+)!lz3b_4xe8-s@ve'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = ['127.0.0.1']
+SIMPLEUI_LOGO = 'https://luoboovovimages.oss-cn-beijing.aliyuncs.com/img/logo.png'
 # Application definition
 
 INSTALLED_APPS = [

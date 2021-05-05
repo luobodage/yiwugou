@@ -3,101 +3,31 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
-        <entry key="C:\QQ\data\1334247301\FileRecv\re_test.py">
-          <value>
-            <Attribute>
-              <option name="separator" value="&#9;" />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="C:\Users\13342\AppData\Local\Programs\Python\Python39\Lib\site-packages\pandas\core\frame.py">
+        <entry key="C:\Users\13342\AppData\Roaming\JetBrains\PyCharm2021.1\scratches\data.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="C:\Users\13342\AppData\Local\Programs\Python\Python39\Lib\site-packages\pandas\core\generic.py">
+        <entry key="C:\Users\13342\AppData\Roaming\JetBrains\PyCharm2021.1\scratches\data_late.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="C:\Users\13342\AppData\Local\Programs\Python\Python39\Lib\site-packages\pandas\core\groupby\grouper.py">
+        <entry key="C:\Users\13342\AppData\Roaming\JetBrains\PyCharm2021.1\scratches\ywg.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="C:\Users\13342\AppData\Local\Programs\Python\Python39\Lib\site-packages\pandas\core\resample.py">
+        <entry key="\static\ywg.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="C:\Users\13342\AppData\Local\Programs\Python\Python39\Lib\site-packages\pandas\core\series.py">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="C:\Users\13342\AppData\Roaming\JetBrains\PyCharm2020.3\scratches\scratch_1.py">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="C:\Users\13342\Desktop\1\key_word.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="C:\Users\13342\Desktop\yiwugou_data.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="C:\Users\13342\Desktop\电影天堂.py">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\index\views.py">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\yiwugou_data.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\yiwugou_data1.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\处理数据.py">
-          <value>
-            <Attribute>
-              <option name="separator" value=":" />
             </Attribute>
           </value>
         </entry>
